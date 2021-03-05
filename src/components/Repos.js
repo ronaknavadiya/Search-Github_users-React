@@ -54,7 +54,6 @@ const Repos = () => {
   );
   stars = Object.values(stars).slice(-5).reverse();
   forks = Object.values(forks).slice(-5).reverse();
-  console.log("star", stars);
 
   return (
     <section className="section">
